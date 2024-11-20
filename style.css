@@ -1,0 +1,108 @@
+:root{
+    --primary-color:rgb(0, 99, 237);
+    --sicndary-color:rgb(255, 255, 255);
+    --lightcolor: #000000;
+    --bgcolor-1:rgb(0, 169, 221);
+    --bgcolor-2:rgb(225, 10, 10);
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+
+.home{
+ 
+ background-color: rgb(255, 255, 255);
+ width: 100%;
+ height: 70px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ scroll-behavior: smooth;
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 10;
+
+   
+}
+.h1{
+    color: rgb(0, 0, 0);
+ 
+  padding-left: 2.5%;
+   
+}
+span{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+  
+}
+
+
+nav {
+    padding-top: 0.5rem;
+    padding-right: 8%;
+    padding-left: 40%;
+   
+    display: flex;
+    justify-content: space-between;
+     align-items:center;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.57rem;
+
+}
+nav ul li a{
+ color: rgb(0, 0, 0);
+text-decoration: solid;
+ text-transform: capitalize;
+ transition: 0.4s;
+ font-size: 20px;
+
+
+}
+nav ul li a:hover{
+    color: rgb(230, 53, 53);
+
+
+}
+.buttn {
+    background-color:rgb(0, 0, 0);
+    color: rgb(245, 69, 69);
+text-decoration: solid;
+    font-weight: bold;
+    padding: 0.70rem 1.50rem;
+    border-radius: 30px;
+    border: 2px solid transparent;
+
+}
+.buttn:hover{
+    background-color: transparent;
+    border: 2px solid var(--bgcolor-1);
+    transition: 0.4s;
+   
+}
+.buttn a{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.home1{
+    width: 100%;
+    height: 100vh;
+    background-color: #dd4646;
+}
+.name{
+    color: #000000;
+}
